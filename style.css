@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 10%;
 }
 
 .half-width {
@@ -38,4 +39,33 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.half-width1 {
+    width: 50%;
+    text-align: justify;
+}
+
+.half-width1 p {
+    margin-right: 15%;
+}
+
+
+.half-width1 img {
+    width: 65%;
+}
+
+.middle-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.middle-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
